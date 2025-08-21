@@ -1,23 +1,20 @@
-# --- Réglage des stats de langage (Classicmodels) ---
+# Compter le SQL
 *.sql linguist-language=SQL
 *.sql linguist-detectable=true
+
+# Notebooks ≈ documentation (n'écrasent pas les stats)
 *.ipynb linguist-documentation
 
-# Exclure des stats les données & binaires (pour ne pas "écraser" le SQL)
-*.csv linguist-vendored
-*.tsv linguist-vendored
-*.xlsx linguist-vendored
-*.xlsm linguist-vendored
-*.parquet linguist-vendored
+# Binaries/données hors stats (ne cachent aucun langage, ils sont juste ignorés dans le calcul)
 *.pbix linguist-vendored
-*.zip linguist-vendored
-*.rar linguist-vendored
-*.7z linguist-vendored
-*.pdf linguist-vendored
-*.png linguist-vendored
-*.jpg linguist-vendored
-*.jpeg linguist-vendored
+*.pdf  linguist-vendored
+*.xlsx linguist-vendored
+*.zip  linguist-vendored
+*.csv  linguist-vendored
+*.png  linguist-vendored
+*.jpg  linguist-vendored
 
-# Laisser DAX / Power Query en texte lisible (non compté comme langage)
+# (facultatif) DAX et Power Query visibles comme texte
 *.dax linguist-language=Text
 *.pq  linguist-language=Text
+
