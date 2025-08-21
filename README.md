@@ -1,9 +1,5 @@
 ## 📊 Classicmodels 2025 — Data Analytics Consulting Project
 
-![GitHub last commit](https://img.shields.io/github/last-commit/username/repo?style=flat-square&color=blue)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=flat-square)
-![Made with](https://img.shields.io/badge/Made%20with-SQL%20%26%20PowerBI-orange?style=flat-square)
-![License](https://img.shields.io/badge/License-Academic-blueviolet?style=flat-square)
 
 ---
 
