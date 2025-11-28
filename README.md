@@ -17,7 +17,7 @@
 
 ---
 
-## 🎯 Objectif
+## 🎯 Objectifs
 Optimiser les **performances opérationnelles de Classic Models** (grossiste de maquettes) à travers une **analyse de données complète**, afin de :
 
 - Identifier les produits les plus vendus et les plus rentables,  
